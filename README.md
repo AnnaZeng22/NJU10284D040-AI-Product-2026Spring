@@ -1,7 +1,4 @@
 
-# 生成说明手册
-manual_content = '''# Tree of Thoughts (ToT) 数独求解器 - 使用手册
-
 ## 📚 目录
 1. [项目简介](#项目简介)
 2. [ToT算法原理](#tot算法原理)
@@ -328,16 +325,16 @@ solver = SudokuToTSolver(beam_width=2)
 ### 相关论文
 
 1. **Tree of Thoughts (ToT)** - Yao et al., 2023
-   - 原始ToT框架，提出思维树搜索概念[^5^][^6^]
+   - 原始ToT框架，提出思维树搜索概念
    - 使用BFS/DFS探索推理路径
 
 2. **Reasoning via Planning (RAP)** - Hao et al., 2023
    - 将LLM作为世界模型
-   - 使用MCTS进行规划[^5^]
+   - 使用MCTS进行规划
 
 3. **Graph of Thoughts (GoT)** - Besta et al., 2023
    - 将思维结构扩展为图
-   - 支持更复杂的思维聚合[^8^]
+   - 支持更复杂的思维聚合
 
 ### 关键概念
 
@@ -353,18 +350,12 @@ solver = SudokuToTSolver(beam_width=2)
 
 ### ToT在其他领域的应用
 
-- **数学推理**：Game of 24, 数学问题求解[^5^]
+- **数学推理**：Game of 24, 数学问题求解
 - **创意写作**：故事规划、诗歌生成
-- **代码生成**：程序合成、调试[^16^]
+- **代码生成**：程序合成、调试
 - **规划任务**：旅行规划、项目安排
-- **逻辑推理**：证明辅助、谜题求解[^10^]
+- **逻辑推理**：证明辅助、谜题求解
 
-### 变体算法
-
-- **Algorithm of Thoughts (AoT)**：在上下文中模拟算法执行[^15^]
-- **Skeleton of Thought (SoT)**：先生成骨架再并行填充[^15^]
-- **Boosting of Thoughts (BoT)**：迭代积累经验[^14^]
-- **Caterpillar of Thoughts (CaT)**：最优测试时算法[^1^]
 
 ---
 
